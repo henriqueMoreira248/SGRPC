@@ -1,0 +1,14 @@
+program SGRPCServer;
+
+uses
+  Vcl.Forms,
+  SGRPCServer in 'SGRPCServer.pas' {FrmSGRPCServer};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmSGRPCServer, FrmSGRPCServer);
+  Application.Run;
+end.

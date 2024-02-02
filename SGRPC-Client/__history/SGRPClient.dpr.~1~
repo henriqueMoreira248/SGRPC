@@ -1,0 +1,14 @@
+program SGRPClient;
+
+uses
+  Vcl.Forms,
+  USGRPClient in 'USGRPClient.pas' {FrmSGRPClient};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmSGRPClient, FrmSGRPClient);
+  Application.Run;
+end.

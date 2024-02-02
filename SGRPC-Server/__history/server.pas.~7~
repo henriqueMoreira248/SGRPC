@@ -1,0 +1,50 @@
+unit server;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.FileCtrl,
+  System.Win.ScktComp, Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    MouseTimer: TTimer;
+    ServerSocket: TServerSocket;
+    Info: TMemo;
+    DirectoryListBox: TDirectoryListBox;
+    DriveComboBox: TDriveComboBox;
+    FileListBox: TFileListBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TForm1.FormCreate(Sender:TObjecT);
+begin
+  ServerSocket.Active:=True
+end;
+
+procedure TForm1.ServerSocketAccept (Sender: TObject;Socket: TCustomWinSocket);
+begin
+  Info.Lines.Add(Socket.RemoteAddress+'conectado!');
+  Socket.SendText('Text!Text!Você está conectado. Seja bem vino e divirta-se!')
+end;
+
+procedure TForm1.ServerSocketClient
+Disconnect(Sender:TObject;Socket:TCustomWinSocket);
+begin
+  Info.Lines.Add(Socket.RemoteAddress+'desconectado!')
+end;
+
+end.

@@ -1,0 +1,28 @@
+unit UBitmap;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Menus;
+
+type
+  TFrmBitmap = class(TForm)
+    MainMenu1: TMainMenu;
+    Image1: TImage;
+    SaveDialog1: TSaveDialog;
+    OpenDialog1: TOpenDialog;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmBitmap: TFrmBitmap;
+
+implementation
+
+{$R *.dfm}
+
+end.

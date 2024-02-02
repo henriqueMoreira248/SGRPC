@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/01/12 11:00:05.652,=C:\Users\henri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/12 11:00:33.787,C:\Users\henri\Desktop\SGRPC\server.pas=C:\Users\henri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/12 11:00:33.787,C:\Users\henri\Desktop\SGRPC\server.dfm=C:\Users\henri\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/01/12 11:52:58.787,C:\Users\henri\Desktop\SGRPC\SGRPServer.pas=C:\Users\henri\Desktop\SGRPC\server.pas</Transaction>
+    <Transaction>2024/01/12 11:52:58.787,C:\Users\henri\Desktop\SGRPC\SGRPServer.dfm=C:\Users\henri\Desktop\SGRPC\server.dfm</Transaction>
+    <Transaction>2024/01/12 11:53:31.461,C:\Users\henri\Desktop\SGRPC\SGRPC.dproj=C:\Users\henri\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/01/12 11:56:48.985,C:\Users\henri\Desktop\SGRPC\SGRPCServer.dproj=C:\Users\henri\Desktop\SGRPC\SGRPC.dproj</Transaction>
+    <Transaction>2024/01/12 11:57:02.270,C:\Users\henri\Desktop\SGRPC\SGRPCServer.pas=C:\Users\henri\Desktop\SGRPC\SGRPServer.pas</Transaction>
+    <Transaction>2024/01/12 11:57:02.270,C:\Users\henri\Desktop\SGRPC\SGRPCServer.dfm=C:\Users\henri\Desktop\SGRPC\SGRPServer.dfm</Transaction>
+    <Transaction>2024/01/12 12:00:05.748,C:\Users\henri\Desktop\SGRPC\UServer.pas=C:\Users\henri\Desktop\SGRPC\SGRPCServer.pas</Transaction>
+    <Transaction>2024/01/12 12:00:05.748,C:\Users\henri\Desktop\SGRPC\UServer.dfm=C:\Users\henri\Desktop\SGRPC\SGRPCServer.dfm</Transaction>
+  </Transactions>
+  <BT_BuildType>AppStore</BT_BuildType>
+</BorlandProject>

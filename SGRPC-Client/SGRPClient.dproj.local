@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/01/12 14:58:04.000.796,=C:\Users\henri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/12 14:58:42.000.319,C:\Users\henri\Documents\Embarcadero\Studio\Projects\USGRPClient.pas=C:\Users\henri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/12 14:58:42.000.319,C:\Users\henri\Documents\Embarcadero\Studio\Projects\USGRPClient.dfm=C:\Users\henri\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/01/12 14:58:52.000.600,C:\Users\henri\Documents\Embarcadero\Studio\Projects\SGRPClient.dproj=C:\Users\henri\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/01/13 11:43:25.000.790,=C:\Users\henri\Desktop\SGRPC-Client\Unit1.pas</Transaction>
+    <Transaction>2024/01/13 11:46:05.000.543,C:\Users\henri\Desktop\SGRPC-Client\Unit1.dfm=C:\Users\henri\Desktop\SGRPC-Client\UInfoArquivo.dfm</Transaction>
+    <Transaction>2024/01/13 11:46:05.000.543,C:\Users\henri\Desktop\SGRPC-Client\Unit1.pas=C:\Users\henri\Desktop\SGRPC-Client\UInfoArquivo.pas</Transaction>
+    <Transaction>2024/01/13 11:50:53.777,=C:\Users\henri\Desktop\SGRPC-Client\Unit1.pas</Transaction>
+    <Transaction>2024/01/13 11:52:23.551,C:\Users\henri\Desktop\SGRPC-Client\UBitmap.pas=C:\Users\henri\Desktop\SGRPC-Client\Unit1.pas</Transaction>
+    <Transaction>2024/01/13 11:52:23.551,C:\Users\henri\Desktop\SGRPC-Client\UBitmap.dfm=C:\Users\henri\Desktop\SGRPC-Client\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
